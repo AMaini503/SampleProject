@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aayush.aayush.sampleapplication.Fragment_GET">
+
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/lyt_frm_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/edt_txt_id"
+                android:layout_width="match_parent"
+                android:layout_height = "wrap_content"
+                android:text="Enter ID"
+                android:padding="20dp"
+                android:textAlignment="center"
+                android:textColor="#999">
+            </EditText>
+            <Button
+                android:layout_below="@id/edt_txt_id"
+                android:id="@+id/btn_get_record"
+                android:layout_width="match_parent"
+                android:layout_height= "wrap_content"
+                android:text="GET record"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/lyt_frm_data"
+            android:layout_below="@id/lyt_frm_query"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txt_vw_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/txt_vw_address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_below="@id/txt_vw_name"
+                android:textAlignment="center"
+                 />
+            <TextView
+                android:id="@+id/txt_vw_phn"
+                android:layout_below="@id/txt_vw_address"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textAlignment="center"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

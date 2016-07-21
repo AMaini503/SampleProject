@@ -1,0 +1,2 @@
+CHANGED,/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aayush/aayush/sampleapplication/Fragment_POST.class
+CHANGED,/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/aayush/aayush/sampleapplication/Fragment_GET.class

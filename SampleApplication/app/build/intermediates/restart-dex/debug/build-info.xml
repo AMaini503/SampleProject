@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    density="xhdpi"
+    format="7"
+    timestamp="15206109730081"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="51" />
+    <task
+        name="instant-run-dex"
+        duration="371" />
+    <task
+        name="instant-run-transform"
+        duration="6" />
+    <task
+        name="verifier"
+        duration="1" />
+
+    <artifact
+        location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="12593979111036" >
+        <artifact
+            location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="14868361971838"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="15010127503444"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/builds/debug/15010127503444/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="15122932117879"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/builds/debug/15122932117879/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="15206109730081"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/home/aayush/AndroidStudioProjects/SampleApplication/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>
